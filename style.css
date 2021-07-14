@@ -1,0 +1,41 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(211, 211, 211, 0.473);
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+article {
+    width: 300px;
+    text-align: center;
+    background-color: rgb(103, 9, 211);
+    border-radius: 10px;
+    margin: 50px auto 20px;
+    padding: 5px;
+    overflow: hidden;
+    box-shadow: 3px 3px 3px #ccc;
+}
+
+article h1 {
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+}
+
+.count {
+    padding: 5px;
+}
+
+#timer {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+    color: crimson;
+    background-color: aliceblue;
+    border-radius: 2px;
+}
